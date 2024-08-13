@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>Submit new meme for review</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self';">
+
+</head>
+
+<body>
+  <h1>show me what you got</h1>
+  <form method="POST" action="/submit-image" enctype="multipart/form-data">
+    <div>
+      <label for="profile_pic">Choose file to upload</label>
+      <input type="file" id="img" name="img" accept=".jpg, .jpeg, .png" />
+    </div>
+    <div>
+      <label for="profile_pic">OR URL TO STEAL FROM DIRECTLY</label>
+      <input type="url" id="url" name="url" />
+    </div>
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+
+</body>
+
+</html>
