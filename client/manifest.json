@@ -1,0 +1,19 @@
+{
+  "name": "is-meme",
+  "share_target": {
+    "action": "/submit-image",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "img",
+          "accept": "image/*"
+        }
+      ]
+    }
+  },
+  "icons": [],
+  "start_url": "/",
+  "display": "standalone"
+}
