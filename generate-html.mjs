@@ -42,7 +42,10 @@ function writePage(imgs, page) {
 
     <footer>
     If you have submitted a meme, and it is not showing up, then you failed to submit a meme. No further information can be provided and we thank you for your failed submission, and hope you never return.
-    <a href="http://validator.w3.org/feed/check.cgi?url=https%3A//${DOMAIN}/feed.xml"><img src="valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+    <div><a href="http://validator.w3.org/feed/check.cgi?url=https%3A//${DOMAIN}/feed.xml"><img src="valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+    </div>
+    <div><a href="https://github.com/nexus-uw/is-meme">CODE</a>
+    </div>
     </footer>
     </body>
     </html>`)
